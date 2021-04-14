@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+   background-color: whitesmoke; /*rgb(18, 18, 143); */
+  overflow-x: hidden;
+}
+
+.input-group {
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: white;
+  height: auto !important;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0px 3px 0px;
+}
+
+#fullname {
+  padding: 1em 3em;
+}
+
+.account {
+  width: 100%;
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: darkgray;
+  text-align: center;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: black ;
+  text-align: center;
+}
+
+#date_of {
+  padding: 1em 3em;
+  margin-left: 10px;
+  font-family: sans-serif;
+  margin: 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  color: darkgray;
+}
+
+.input-box {
+ text-align: center;
+ justify-content: center;
+  display: block;
+  margin-top: 10px;
+}
+
+#date_of:focus {
+  color: lightgreen;
+}
+
+#fullname{
+  margin: 5px; 
+  font-family: sans-serif;
+  margin: 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  color: darkgrey;
+}
+
+
+
+#year{
+  border: none;
+  padding: 7px;
+  color: darkgrey;
+  justify-content: space-between;
+}
+
+
+
+#CN{
+  margin: 5px;
+  font-family: sans-serif;
+  outline: none;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  padding: 8px;
+ 
+  
+}
+
+
+#button{
+  border: none;
+   background-color: lightgreen;
+   width: 150px;
+   border-radius: 15px;
+   margin-top: 10px;
+   color: cornsilk;
+   padding: 10px;
+}
+
+#icon__set {
+  font-size: 30px;
+  color: rgb(73, 175, 73);
+}
+
+#checked_radio {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.button-box{
+  text-align: center;
+}
